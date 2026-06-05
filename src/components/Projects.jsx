@@ -48,9 +48,10 @@ const Projects = () => {
               Sistem Informasi Monitoring Maturity Level & Evidensi HSSE. An enterprise-grade, comprehensive full-stack digital platform designed to rigorously monitor occupational health and safety metrics for state-owned enterprise PT PLN (Persero) UP2D Riau. Built from scratch with advanced data analytics capabilities.
             </p>
 
-            <div style={{ display: 'flex', gap: '12px' }}>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
               <span style={{ padding: '6px 12px', background: 'rgba(255,255,255,0.05)', borderRadius: '6px', fontSize: '0.85rem' }}>React</span>
               <span style={{ padding: '6px 12px', background: 'rgba(255,255,255,0.05)', borderRadius: '6px', fontSize: '0.85rem' }}>Node.js</span>
+              <span style={{ padding: '6px 12px', background: 'rgba(255,255,255,0.05)', borderRadius: '6px', fontSize: '0.85rem' }}>PostgreSQL</span>
               <span style={{ padding: '6px 12px', background: 'rgba(255,255,255,0.05)', borderRadius: '6px', fontSize: '0.85rem' }}>Data Analysis</span>
             </div>
           </div>
